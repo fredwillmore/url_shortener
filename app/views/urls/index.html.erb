@@ -1,0 +1,8 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Urls</h1>
+  
+<%= form_for :url do |f| %>
+  Enter the complete URL: <%= f.text_field :full %><br />
+  <%= f.submit %>
+<% end %>
